@@ -3,8 +3,8 @@ let songs = [
     name: "Quran",
     cover:
       "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-    artist: "Hakim Omari",
-    audio: "./songs/quran.mp3",
+    artist: "justin bieber",
+    audio: "https://youtu.be/kffacxfA7G4",
     id: 0,
   },
   {
