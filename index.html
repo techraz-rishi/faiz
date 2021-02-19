@@ -13,11 +13,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./styles/style.css" />
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-storage.js"></script>
-    <title>Audio Player</title>
+        <title>Audio Player</title>
   </head>
   <body>
     <div class="app">
@@ -196,24 +192,7 @@
       </div>
       <div class="add-song">Add Song <i class="far fa-plus-square"></i></div>
     </div>
-    <script>
-      var firebaseConfig = {
-        apiKey: "AIzaSyDrlpoAxibJjGCUbYq8rfBNK7wcjQbzpLg",
-        authDomain: "audio-player-1d670.firebaseapp.com",
-        projectId: "audio-player-1d670",
-        storageBucket: "audio-player-1d670.appspot.com",
-        messagingSenderId: "897703865464",
-        appId: "1:897703865464:web:cdb889b090895c8aa9918d",
-        measurementId: "G-724R4XTJZW",
-        storageBucket: "gs://audio-player-1d670.appspot.com",
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      const auth = firebase.auth();
-      const db = firebase.firestore();
-      const storage = firebase.storage();
-      const storageRef = storage.ref();
-    </script>
+    
     <script src="./scripts/songs.js"></script>
     <script src="./scripts/app.js"></script>
     <script src="./scripts/auth.js"></script>
